@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg88505"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="dilated_conv.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview88507"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="1.1189113"
+     inkscape:cx="173.38282"
+     inkscape:cy="743.13306"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs88502">
+    <rect
+       x="83.820279"
+       y="86.482386"
+       width="173.41429"
+       height="92.451442"
+       id="rect95469" />
+    <rect
+       x="83.820279"
+       y="86.482386"
+       width="173.41429"
+       height="92.451442"
+       id="rect102229" />
+    <rect
+       x="83.820279"
+       y="86.482386"
+       width="173.41429"
+       height="92.451442"
+       id="rect102235" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker104744"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path104742" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker104748"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path104746" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker104752"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path104750" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker104756"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path104754" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-63"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-61"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423-5" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g89526"
+       transform="matrix(0.62206022,0,0,0.62206022,-2.9984408,17.420515)"
+       style="stroke-width:1.60756"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/convolutions_a_trous.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58">
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect88620"
+         width="100"
+         height="100"
+         x="11.9305"
+         y="46.392006" />
+      <path
+         d="M 11.698,46.159505 V 146.6245 M 25.985499,46.159505 V 146.6245 M 40.272999,46.159505 V 146.6245 M 54.560499,46.159505 V 146.6245 M 68.847998,46.159505 V 146.6245 M 83.135498,46.159505 V 146.6245 M 97.422998,46.159505 V 146.6245 M 111.7105,46.159505 V 146.6245 M 11.698,46.159505 H 112.163 M 11.698,60.447005 H 112.163 M 11.698,74.734504 H 112.163 M 11.698,89.022004 H 112.163 M 11.698,103.3095 H 112.163 M 11.698,117.597 H 112.163 M 11.698,131.8845 H 112.163 M 11.698,146.172 h 100.465"
+         style="fill:none;stroke:#000000;stroke-width:0.425333px"
+         id="path89504" />
+    </g>
+    <g
+       id="g89686"
+       transform="matrix(0.62206022,0,0,0.62206022,-12.036461,-31.413902)"
+       style="stroke-width:1.60756;fill:#ef2929"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/convolutions_a_trous.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58">
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect89552"
+         width="14.21554"
+         height="14.130216"
+         x="55.100658"
+         y="153.6653" />
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect89634"
+         width="14.21554"
+         height="14.130216"
+         x="69.3162"
+         y="153.6653" />
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect89636"
+         width="14.21554"
+         height="14.130216"
+         x="83.531738"
+         y="153.6653" />
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect89638"
+         width="14.21554"
+         height="14.130216"
+         x="83.531738"
+         y="153.6653" />
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect89640"
+         width="14.21554"
+         height="14.130216"
+         x="55.100658"
+         y="167.79552" />
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect89642"
+         width="14.21554"
+         height="14.130216"
+         x="69.3162"
+         y="167.79552" />
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect89644"
+         width="14.21554"
+         height="14.130216"
+         x="83.531738"
+         y="167.79552" />
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect89646"
+         width="14.21554"
+         height="14.130216"
+         x="83.531738"
+         y="167.79552" />
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect89648"
+         width="14.21554"
+         height="14.130216"
+         x="55.100658"
+         y="181.92574" />
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect89650"
+         width="14.21554"
+         height="14.130216"
+         x="69.3162"
+         y="181.92574" />
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect89652"
+         width="14.21554"
+         height="14.130216"
+         x="83.531738"
+         y="181.92574" />
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect89654"
+         width="14.21554"
+         height="14.130216"
+         x="83.531738"
+         y="181.92574" />
+    </g>
+    <g
+       id="g89692"
+       transform="matrix(0.62206022,0,0,0.62206022,64.638768,17.420515)"
+       style="stroke-width:1.60756"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/convolutions_a_trous.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58">
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect89688"
+         width="100"
+         height="100"
+         x="11.9305"
+         y="46.392006" />
+      <path
+         d="M 11.698,46.159505 V 146.6245 M 25.985499,46.159505 V 146.6245 M 40.272999,46.159505 V 146.6245 M 54.560499,46.159505 V 146.6245 M 68.847998,46.159505 V 146.6245 M 83.135498,46.159505 V 146.6245 M 97.422998,46.159505 V 146.6245 M 111.7105,46.159505 V 146.6245 M 11.698,46.159505 H 112.163 M 11.698,60.447005 H 112.163 M 11.698,74.734504 H 112.163 M 11.698,89.022004 H 112.163 M 11.698,103.3095 H 112.163 M 11.698,117.597 H 112.163 M 11.698,131.8845 H 112.163 M 11.698,146.172 h 100.465"
+         style="fill:none;stroke:#000000;stroke-width:0.425333px"
+         id="path89690" />
+    </g>
+    <g
+       id="g92548"
+       transform="translate(8.4978831,-65.434388)"
+       style="stroke:#000000;stroke-opacity:1;fill:#ef2929"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/convolutions_a_trous.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58">
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89694"
+         width="8.8429222"
+         height="8.7898455"
+         x="72.535866"
+         y="120.81971" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89698"
+         width="8.8429222"
+         height="8.7898455"
+         x="90.22171"
+         y="120.81971" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89700"
+         width="8.8429222"
+         height="8.7898455"
+         x="90.22171"
+         y="120.81971" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89710"
+         width="8.8429222"
+         height="8.7898455"
+         x="72.535866"
+         y="138.3994" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89714"
+         width="8.8429222"
+         height="8.7898455"
+         x="90.22171"
+         y="138.3994" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89716"
+         width="8.8429222"
+         height="8.7898455"
+         x="90.22171"
+         y="138.3994" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89760"
+         width="8.8429222"
+         height="8.7898455"
+         x="107.90756"
+         y="120.81971" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89776"
+         width="8.8429222"
+         height="8.7898455"
+         x="107.90756"
+         y="138.3994" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89790"
+         width="8.8429222"
+         height="8.7898455"
+         x="72.535866"
+         y="155.9791" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89794"
+         width="8.8429222"
+         height="8.7898455"
+         x="90.22171"
+         y="155.9791" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89796"
+         width="8.8429222"
+         height="8.7898455"
+         x="90.22171"
+         y="155.9791" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89816"
+         width="8.8429222"
+         height="8.7898455"
+         x="107.90756"
+         y="155.9791" />
+    </g>
+    <g
+       id="g93054"
+       transform="translate(22.809873,-74.584994)"
+       style="fill:#ef2929"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/convolutions_a_trous.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58">
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89762"
+         width="8.8429222"
+         height="8.7898455"
+         x="116.75049"
+         y="120.81971" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89764"
+         width="8.8429222"
+         height="8.7898455"
+         x="116.75049"
+         y="120.81971" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89810"
+         width="8.8429222"
+         height="8.7898455"
+         x="116.75049"
+         y="147.18924" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89812"
+         width="8.8429222"
+         height="8.7898455"
+         x="116.75049"
+         y="147.18924" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89834"
+         width="8.8429222"
+         height="8.7898455"
+         x="143.27927"
+         y="120.81971" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89836"
+         width="8.8429222"
+         height="8.7898455"
+         x="143.27927"
+         y="120.81971" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89858"
+         width="8.8429222"
+         height="8.7898455"
+         x="169.80804"
+         y="120.81971" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89860"
+         width="8.8429222"
+         height="8.7898455"
+         x="169.80804"
+         y="120.81971" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89882"
+         width="8.8429222"
+         height="8.7898455"
+         x="143.27927"
+         y="147.18924" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89884"
+         width="8.8429222"
+         height="8.7898455"
+         x="143.27927"
+         y="147.18924" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89906"
+         width="8.8429222"
+         height="8.7898455"
+         x="169.80804"
+         y="147.18924" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89908"
+         width="8.8429222"
+         height="8.7898455"
+         x="169.80804"
+         y="147.18924" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89954"
+         width="8.8429222"
+         height="8.7898455"
+         x="116.75049"
+         y="173.55876" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect89956"
+         width="8.8429222"
+         height="8.7898455"
+         x="116.75049"
+         y="173.55876" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect90026"
+         width="8.8429222"
+         height="8.7898455"
+         x="143.27927"
+         y="173.55876" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect90028"
+         width="8.8429222"
+         height="8.7898455"
+         x="143.27927"
+         y="173.55876" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect90050"
+         width="8.8429222"
+         height="8.7898455"
+         x="169.80804"
+         y="173.55876" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect90052"
+         width="8.8429222"
+         height="8.7898455"
+         x="169.80804"
+         y="173.55876" />
+    </g>
+    <g
+       id="g93034"
+       transform="matrix(0.62206022,0,0,0.62206022,132.00831,17.420515)"
+       style="stroke-width:1.60756"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/convolutions_a_trous.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58">
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.747516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect93030"
+         width="100"
+         height="100"
+         x="11.9305"
+         y="46.392006" />
+      <path
+         d="M 11.698,46.159505 V 146.6245 M 25.985499,46.159505 V 146.6245 M 40.272999,46.159505 V 146.6245 M 54.560499,46.159505 V 146.6245 M 68.847998,46.159505 V 146.6245 M 83.135498,46.159505 V 146.6245 M 97.422998,46.159505 V 146.6245 M 111.7105,46.159505 V 146.6245 M 11.698,46.159505 H 112.163 M 11.698,60.447005 H 112.163 M 11.698,74.734504 H 112.163 M 11.698,89.022004 H 112.163 M 11.698,103.3095 H 112.163 M 11.698,117.597 H 112.163 M 11.698,131.8845 H 112.163 M 11.698,146.172 h 100.465"
+         style="fill:none;stroke:#000000;stroke-width:0.425333px"
+         id="path93032" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-9.7085499,0)"
+       id="text95467"
+       style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect95469);fill:#000000;fill-opacity:1;stroke:none"
+       x="25.692667"
+       y="0"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/convolutions_a_trous.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58"><tspan
+         x="143.45447"
+         y="105.69849"
+         id="tspan128673"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan128671">Conv.
+</tspan></tspan><tspan
+         x="153.32945"
+         y="132.36511"
+         id="tspan128677"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan128675">3x3
+</tspan></tspan><tspan
+         x="114.19931"
+         y="159.03174"
+         id="tspan128681"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan128679">Dilatation: 1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,59.063442,0)"
+       id="text102227"
+       style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect102229);fill:#000000;fill-opacity:1;stroke:none"
+       x="25.692667"
+       y="0"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/convolutions_a_trous.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58"><tspan
+         x="143.45447"
+         y="105.69849"
+         id="tspan128685"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan128683">Conv.
+</tspan></tspan><tspan
+         x="153.32945"
+         y="132.36511"
+         id="tspan128689"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan128687">3x3
+</tspan></tspan><tspan
+         x="114.19931"
+         y="159.03174"
+         id="tspan128693"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan128691">Dilatation: 2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,124.02017,0)"
+       id="text102233"
+       style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect102235);fill:#000000;fill-opacity:1;stroke:none"
+       x="25.692667"
+       y="0"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/convolutions_a_trous.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58"><tspan
+         x="143.45447"
+         y="105.69849"
+         id="tspan128697"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan128695">Conv.
+</tspan></tspan><tspan
+         x="153.32945"
+         y="132.36511"
+         id="tspan128701"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan128699">3x3
+</tspan></tspan><tspan
+         x="114.19931"
+         y="159.03174"
+         id="tspan128705"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan128703">Dilatation: 3</tspan></tspan></text>
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#d0f4af;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect1854"
+       width="30.00128"
+       height="30.414858"
+       x="122.89184"
+       y="178.40775"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#d5f3fb;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect846"
+       width="14.565095"
+       height="30.414858"
+       x="96.733536"
+       y="119.38503"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect1852"
+       width="14.565095"
+       height="30.414858"
+       x="96.733536"
+       y="158.73351"
+       inkscape:connector-avoid="true"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;opacity:1;stop-opacity:1"
+       id="rect1856"
+       width="14.565095"
+       height="30.414858"
+       x="96.733536"
+       y="198.08195"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19"
+       inkscape:connector-avoid="true" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#ef2929;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;opacity:1;stop-opacity:1"
+       id="rect1858"
+       width="14.565095"
+       height="30.414858"
+       x="96.733536"
+       y="237.43042"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+    <path
+       style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.420248;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 111.29863,134.59247 h 26.59385 v 43.81528"
+       id="path2096"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect1854"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.420248;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 111.29863,252.63785 h 26.59385 V 208.8226"
+       id="path2098"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect1854"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.420248;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000"
+       d="m 111.29863,178.17038 11.59321,6.73294"
+       id="path2100"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect1854"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.420248;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000"
+       d="m 109.40502,198.09611 11.59321,-6.73292"
+       id="path2102"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.37199px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="138.36797"
+       y="192.61215"
+       id="text9800"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19"
+       transform="scale(0.99925187,1.0007487)"><tspan
+         sodipodi:role="line"
+         id="tspan9798"
+         style="font-size:4.37199px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="138.36797"
+         y="192.61215">Concaténation </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.37199px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="138.36797"
+         y="198.07713"
+         id="tspan9802">des filtres</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.37199px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="104.18255"
+       y="133.28564"
+       id="text26170"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19"
+       transform="scale(0.99925187,1.0007487)"><tspan
+         sodipodi:role="line"
+         id="tspan26168"
+         style="font-size:4.37199px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="104.18255"
+         y="133.28564">Conv.</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.37199px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="104.18255"
+         y="138.75063"
+         id="tspan26838">1x1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.37199px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="104.18255"
+       y="169.85081"
+       id="text29124"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19"
+       transform="scale(0.99925187,1.0007487)"><tspan
+         sodipodi:role="line"
+         id="tspan29120"
+         style="font-size:4.37199px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         x="104.18255"
+         y="169.85081">Conv.</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.37199px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         x="104.18255"
+         y="175.3158"
+         id="tspan29122">3x3</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.37199px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         x="104.18255"
+         y="180.78079"
+         id="tspan109832">d=6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.37199px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="104.18255"
+       y="211.90233"
+       id="text29130"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19"
+       transform="scale(0.99925187,1.0007487)"><tspan
+         sodipodi:role="line"
+         id="tspan29126"
+         style="font-size:4.37199px;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffffff;fill-opacity:1"
+         x="104.18255"
+         y="211.90233">Conv.</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.37199px;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffffff;fill-opacity:1"
+         x="104.18255"
+         y="217.36731"
+         id="tspan29128">3x3</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.37199px;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffffff;fill-opacity:1"
+         x="104.18255"
+         y="222.83231"
+         id="tspan114783">d=12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.37199px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="104.18255"
+       y="251.24271"
+       id="text29136"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19"
+       transform="scale(0.99925187,1.0007487)"><tspan
+         sodipodi:role="line"
+         id="tspan29132"
+         style="font-size:4.37199px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         x="104.18255"
+         y="251.24271">Conv.</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.37199px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         x="104.18255"
+         y="256.7077"
+         id="tspan29134">3x3</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.37199px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         x="104.18255"
+         y="262.17267"
+         id="tspan117229">d=18</tspan></text>
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.420248;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;opacity:1;stop-opacity:1"
+       d="m 152.89312,193.62416 8.35461,0.005"
+       id="path48142"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect1854"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#d0f4af;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect2394"
+       width="18.818281"
+       height="39.237595"
+       x="53.089771"
+       y="173.99638"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="62.392803"
+       y="195.6657"
+       id="text37592"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19"><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="62.392803"
+         y="195.6657"
+         id="tspan37590">Entrée</tspan></text>
+    <path
+       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.54256;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend-8);stop-color:#000000"
+       d="m 29.83035,193.49469 23.259421,0.0341"
+       id="path47935"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.420248;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="M 62.498912,173.99638 V 134.59246 H 96.733536"
+       id="path107744"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2394"
+       inkscape:connection-end="#rect846"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.420248;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 71.908052,193.61518 h 32.108028 v -4.46682"
+       id="path107746"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2394"
+       inkscape:connection-end="#rect1852"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.420248;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 71.908052,193.61518 h 32.108028 v 4.46677"
+       id="path107748"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2394"
+       inkscape:connection-end="#rect1856"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.420248;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 62.498912,213.23398 v 39.40387 h 34.234624"
+       id="path107750"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2394"
+       inkscape:connection-end="#rect1858"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/ASPP.png"
+       inkscape:export-xdpi="196.19"
+       inkscape:export-ydpi="196.19" />
+  </g>
+</svg>

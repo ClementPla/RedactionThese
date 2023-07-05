@@ -1,0 +1,1768 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500mm"
+   height="500mm"
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (1:1.2.2+202305151914+b0a8486541)"
+   sodipodi:docname="PointNet.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="1.1189113"
+     inkscape:cx="950.47745"
+     inkscape:cy="626.50183"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:object-paths="true"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#292b3b" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2405" />
+    </marker>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter10557"
+       x="-0.049462204"
+       y="-0.055126387"
+       width="1.0989244"
+       height="1.1207157">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood10547" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite10549" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1.6"
+         result="blur"
+         id="feGaussianBlur10551" />
+      <feOffset
+         dx="0"
+         dy="0.8"
+         result="offset"
+         id="feOffset10553" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite10555" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter10569"
+       x="-0.049462204"
+       y="-0.055126387"
+       width="1.0989244"
+       height="1.1207157">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood10559" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite10561" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1.6"
+         result="blur"
+         id="feGaussianBlur10563" />
+      <feOffset
+         dx="0"
+         dy="0.8"
+         result="offset"
+         id="feOffset10565" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite10567" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter10581"
+       x="-0.049462204"
+       y="-0.055126387"
+       width="1.0989244"
+       height="1.1207157">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood10571" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite10573" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1.6"
+         result="blur"
+         id="feGaussianBlur10575" />
+      <feOffset
+         dx="0"
+         dy="0.8"
+         result="offset"
+         id="feOffset10577" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite10579" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter10593"
+       x="-0.049462204"
+       y="-0.055126387"
+       width="1.0989244"
+       height="1.1207157">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood10583" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite10585" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1.6"
+         result="blur"
+         id="feGaussianBlur10587" />
+      <feOffset
+         dx="0"
+         dy="0.8"
+         result="offset"
+         id="feOffset10589" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite10591" />
+    </filter>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423-5" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter10581)"
+       id="rect45321"
+       width="85.216583"
+       height="76.460663"
+       x="217.2377"
+       y="130.4315"
+       transform="matrix(0.684545,-0.27661501,0,1.0161455,141.3465,69.147716)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter10593)"
+       id="rect127392"
+       width="85.216583"
+       height="76.460663"
+       x="103.09664"
+       y="217.90099"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter10593)"
+       id="rect125951"
+       width="85.216583"
+       height="76.460663"
+       x="9.4822445"
+       y="217.63861"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_6.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <rect
+       style="fill:#f6f6f6;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect846"
+       width="85.216583"
+       height="76.460663"
+       x="104.22717"
+       y="39.602039" />
+    <rect
+       style="fill:#f6f6f6;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1759"
+       width="85.216583"
+       height="76.460663"
+       x="10.889658"
+       y="39.491024" />
+    <rect
+       style="fill:#f6f6f6;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4310"
+       width="85.216583"
+       height="76.460663"
+       x="9.7650795"
+       y="130.4315" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter10593)"
+       id="rect9058"
+       width="85.216583"
+       height="76.460663"
+       x="103.12408"
+       y="130.4315"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape5.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter10569)"
+       id="rect1630"
+       width="85.216583"
+       height="76.460663"
+       x="104.22717"
+       y="39.602039" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter10557)"
+       id="rect1787"
+       width="85.216583"
+       height="76.460663"
+       x="10.889658"
+       y="39.491024" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter10581)"
+       id="rect4336"
+       width="85.216583"
+       height="76.460663"
+       x="9.7650795"
+       y="130.4315" />
+    <ellipse
+       style="fill:#d3d7cf;fill-opacity:0.278089;stroke:#7d977a;stroke-width:0.499999;stroke-miterlimit:4;stroke-dasharray:2.99999, 0.999996;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse9506"
+       cx="140.59932"
+       cy="146.94609"
+       rx="35.039429"
+       ry="12.700558" />
+    <ellipse
+       style="fill:#d3d7cf;fill-opacity:0.278089;stroke:#7d977a;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:3, 0.999997;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse9043"
+       cx="71.236923"
+       cy="152.58546"
+       rx="9.9877529"
+       ry="9.987731" />
+    <ellipse
+       style="fill:#d3d7cf;fill-opacity:0.278089;stroke:#7d977a;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:3.00001, 0.999996;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4360"
+       cx="26.48362"
+       cy="151.18159"
+       rx="13.184117"
+       ry="13.184119" />
+    <ellipse
+       style="fill:#d3d7cf;fill-opacity:0.278089;stroke:#7d977a;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:3, 0.999996;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse9045"
+       cx="78.050125"
+       cy="189.89488"
+       rx="12.422894"
+       ry="12.42289" />
+    <circle
+       style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1274"
+       cx="114.75661"
+       cy="55.583214"
+       r="2.8865461" />
+    <circle
+       style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle1356"
+       cx="118.50118"
+       cy="66.804291"
+       r="2.8865461" />
+    <circle
+       style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle1358"
+       cx="127.13478"
+       cy="53.899944"
+       r="2.8865461" />
+    <g
+       id="g1598"
+       transform="translate(52.472408,-56.798176)"
+       style="fill:#cc0000">
+      <circle
+         style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle1360"
+         cx="110.27775"
+         cy="121.96704"
+         r="2.8865461" />
+      <circle
+         style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle1362"
+         cx="116.1758"
+         cy="115.1329"
+         r="2.8865461" />
+    </g>
+    <g
+       id="g1594"
+       transform="translate(48.091109,-46.350831)">
+      <circle
+         style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle1364"
+         cx="115.98849"
+         cy="147.1127"
+         r="2.8865461" />
+      <circle
+         style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle1366"
+         cx="120.87537"
+         cy="140.33318"
+         r="2.8865461" />
+      <circle
+         style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle1368"
+         cx="124.81551"
+         cy="150.8363"
+         r="2.8865461" />
+      <circle
+         style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle1370"
+         cx="129.09491"
+         cy="139.98573"
+         r="2.8865461" />
+      <circle
+         style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle1372"
+         cx="132.85414"
+         cy="147.83939"
+         r="2.8865461" />
+    </g>
+    <path
+       style="fill:#cc0000;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 70.920574,54.932937 c 0,0 5.299126,8.540322 5.631487,7.247935 0.332362,-1.292386 4.925015,-8.786704 4.925015,-8.786704 0,0 -5.775507,-0.652269 -5.608301,0.183761 0.167206,0.836031 0.334412,4.015259 0.334412,4.015259 z"
+       id="path1876" />
+    <path
+       style="fill:#cc0000;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 74.70781,64.264211 c 0,0 -12.900316,-0.658963 -12.082724,0.133712 0.81759,0.792674 2.892559,7.017592 2.892559,7.017592 0,0 6.357552,-3.230839 5.446349,-3.51011 -0.911205,-0.279272 -3.907531,-1.62758 -3.907531,-1.62758 z"
+       id="path1991" />
+    <path
+       style="fill:#f57900;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 19.09441,64.203888 c 7.221285,8.093857 -0.04671,11.991757 7.209039,8.247177 7.255755,-3.74457 8.258989,-1.35298 7.255755,-3.74457 -1.003237,-2.391581 -4.396496,-2.304999 -5.294422,-0.569094 -0.897926,1.735904 -2.2314,0.567464 -3.569048,-2.605183 -1.337648,-3.172648 -0.97885,-10.444892 -2.849747,-6.840106 -1.870898,3.604787 -2.751577,5.511776 -2.751577,5.511776 z"
+       id="path2106" />
+    <path
+       style="fill:#f57900;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 31.793054,55.954915 c 7.221285,8.093857 0.546941,12.16505 7.80269,8.42047 7.255755,-3.74457 6.344202,-6.127035 5.340968,-8.518625 -1.003237,-2.391581 -2.583417,-7.363419 -3.481343,-5.627514 -0.897926,1.735904 -1.329892,4.247705 -2.66754,1.075058 -1.337648,-3.172648 -4.153345,-7.259686 -6.024242,-3.6549 -1.870898,3.604787 -0.970533,8.305511 -0.970533,8.305511 z"
+       id="path2345"
+       sodipodi:nodetypes="csssssc" />
+    <path
+       style="fill:#4e9a06;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 19.785762,54.357231 5.22427,0.118486 0.334409,-6.109266 c 0,0 -3.078726,2.524429 -2.24581,3.187017 0.832919,0.662588 -4.094636,-1.93394 -4.094636,-1.93394 z"
+       id="path2911" />
+    <path
+       style="fill:#4e9a06;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 68.259444,101.56196 3.511511,0.9975 0.334409,-6.109261 c 0,0 -3.727057,1.107138 -2.894141,1.769726 0.832919,0.662588 -3.446305,-0.516649 -3.446305,-0.516649 z"
+       id="path3190"
+       sodipodi:nodetypes="cccscc" />
+    <path
+       style="fill:#4e9a06;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 76.717338,94.976865 5.22427,0.11849 0.334409,-6.109265 c 0,0 -3.260393,-1.913079 -3.909828,-1.069867 -2.502944,3.24977 -1.648851,7.060642 -1.648851,7.060642 z"
+       id="path3192"
+       sodipodi:nodetypes="cccscc" />
+    <path
+       style="fill:#cc0000;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 85.904307,95.28063 90.002433,92.914575 86.70464,89.616782 Z"
+       id="path3668" />
+    <path
+       style="fill:#f57900;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 71.921934,104.6462 -7.639989,5.28847 17.09578,-0.28182 1.444027,-11.153267 c -3.042973,4.979367 -6.343774,8.678767 -10.899818,6.146617 z"
+       id="path3670"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#f57900;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 86.077511,98.086925 0.06646,3.740985 2.127602,3.74998 1.15741,-1.16799 -0.766594,-6.786825 z"
+       id="path3842" />
+    <g
+       id="g9050">
+      <circle
+         style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4312"
+         cx="20.294514"
+         cy="146.41267"
+         r="2.8865461" />
+      <circle
+         style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4314"
+         cx="24.039089"
+         cy="157.63376"
+         r="2.8865461" />
+      <circle
+         style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4316"
+         cx="32.672688"
+         cy="144.72942"
+         r="2.8865461" />
+    </g>
+    <g
+       id="g4322"
+       transform="translate(-41.989685,34.03129)"
+       style="fill:#cc0000">
+      <circle
+         style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4318"
+         cx="110.27775"
+         cy="121.96704"
+         r="2.8865461" />
+      <circle
+         style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4320"
+         cx="116.1758"
+         cy="115.1329"
+         r="2.8865461" />
+    </g>
+    <g
+       id="g4334"
+       transform="translate(-46.370984,44.478635)">
+      <circle
+         style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4324"
+         cx="115.98849"
+         cy="147.1127"
+         r="2.8865461" />
+      <circle
+         style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4326"
+         cx="120.87537"
+         cy="140.33318"
+         r="2.8865461" />
+      <circle
+         style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4328"
+         cx="124.81551"
+         cy="150.8363"
+         r="2.8865461" />
+      <circle
+         style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4330"
+         cx="129.09491"
+         cy="139.98573"
+         r="2.8865461" />
+      <circle
+         style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4332"
+         cx="132.85414"
+         cy="147.83939"
+         r="2.8865461" />
+    </g>
+    <ellipse
+       style="fill:#d3d7cf;fill-opacity:0.278089;stroke:#7d977a;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:3, 1;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse9056"
+       cx="173.8528"
+       cy="188.56366"
+       rx="11.711759"
+       ry="11.711749" />
+    <g
+       id="g9515">
+      <circle
+         style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle9060"
+         cx="113.65352"
+         cy="146.41267"
+         r="2.8865461" />
+      <circle
+         style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle9064"
+         cx="126.03169"
+         cy="144.72942"
+         r="2.8865461" />
+      <circle
+         style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle9070"
+         cx="167.54512"
+         cy="149.16418"
+         r="2.8865461" />
+    </g>
+    <g
+       id="g9510">
+      <circle
+         style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle9076"
+         cx="167.86339"
+         cy="184.81181"
+         r="2.8865461" />
+      <circle
+         style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle9082"
+         cx="179.84216"
+         cy="192.31802"
+         r="2.8865461" />
+    </g>
+    <g
+       id="g125967"
+       transform="translate(4.2521808,4.5626231)"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_6.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25">
+      <ellipse
+         style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle122121"
+         cx="10.820885"
+         cy="233.01376"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_6.png"
+         inkscape:export-xdpi="226.25"
+         inkscape:export-ydpi="226.25"
+         rx="2.565872"
+         ry="2.5638943" />
+      <ellipse
+         style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle122123"
+         cx="21.823935"
+         cy="231.51866"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_6.png"
+         inkscape:export-xdpi="226.25"
+         inkscape:export-ydpi="226.25"
+         rx="2.565872"
+         ry="2.5638943" />
+      <ellipse
+         style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle122125"
+         cx="47.439735"
+         cy="235.45772"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_6.png"
+         inkscape:export-xdpi="226.25"
+         inkscape:export-ydpi="226.25"
+         rx="2.565872"
+         ry="2.5638943" />
+      <ellipse
+         style="fill:#3465a4;fill-opacity:1;stroke:#000000;stroke-width:0.750004;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle122129"
+         cx="83.032471"
+         cy="254.6445"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_6.png"
+         inkscape:export-xdpi="226.25"
+         inkscape:export-ydpi="226.25"
+         rx="4.3892279"
+         ry="4.3858447" />
+      <ellipse
+         style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.750003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle122131"
+         cx="44.029556"
+         cy="271.89398"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_6.png"
+         inkscape:export-xdpi="226.25"
+         inkscape:export-ydpi="226.25"
+         rx="2.565872"
+         ry="2.5638943" />
+      <g
+         id="g125705"
+         transform="matrix(0.88890728,0,0,0.88822218,-14.549058,25.592064)"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_6.png"
+         inkscape:export-xdpi="226.25"
+         inkscape:export-ydpi="226.25"
+         style="stroke-width:1.12541">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.297764"
+           x="67.967598"
+           y="261.5206"
+           id="text124691"><tspan
+             sodipodi:role="line"
+             id="tspan124689"
+             style="stroke-width:0.297764"
+             x="67.967598"
+             y="261.5206">GMP</tspan></text>
+        <rect
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.523316;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           id="rect125617"
+           width="25.698612"
+           height="12.849306"
+           x="67.158859"
+           y="251.45276" />
+      </g>
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.590896;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+         d="M 23.959445,232.93995 47.99667,248.93798"
+         id="path125729"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         inkscape:connection-start="#circle122123"
+         inkscape:connection-end="#g125705"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_6.png"
+         inkscape:export-xdpi="226.25"
+         inkscape:export-ydpi="226.25" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.590896;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+         d="m 48.541642,237.77312 5.313391,11.16486"
+         id="path125731"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         inkscape:connection-start="#circle122125"
+         inkscape:connection-end="#g125705"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_6.png"
+         inkscape:export-xdpi="226.25"
+         inkscape:export-ydpi="226.25" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.590896;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+         d="m 13.14022,234.11035 32.008721,15.13386"
+         id="path125733"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         inkscape:connection-start="#circle122121"
+         inkscape:connection-end="#g125705"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_6.png"
+         inkscape:export-xdpi="226.25"
+         inkscape:export-ydpi="226.25" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.590896;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+         d="m 45.537647,269.81972 6.884214,-9.4687"
+         id="path125735"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         inkscape:connection-start="#circle122131"
+         inkscape:connection-end="#g125705"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_6.png"
+         inkscape:export-xdpi="226.25"
+         inkscape:export-ydpi="226.25" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.590896;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+         d="m 67.992624,254.6445 10.650619,0"
+         id="path125737"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         inkscape:connection-start="#g125705"
+         inkscape:connection-end="#circle122129"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_6.png"
+         inkscape:export-xdpi="226.25"
+         inkscape:export-ydpi="226.25" />
+    </g>
+    <circle
+       style="fill:#729fcf;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle126087"
+       cx="120.00482"
+       cy="226.74767"
+       r="5.650713"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <circle
+       style="fill:#3465a4;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle126089"
+       cx="120.00482"
+       cy="240.84448"
+       r="5.650713"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <circle
+       style="fill:#204a87;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle126091"
+       cx="120.00482"
+       cy="254.94131"
+       r="5.650713"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <circle
+       style="fill:#729fcf;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle126093"
+       cx="120.00482"
+       cy="269.03815"
+       r="5.650713"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <circle
+       style="fill:#3465a4;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle126095"
+       cx="120.00482"
+       cy="283.13495"
+       r="5.650713"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle126099"
+       cx="146.21796"
+       cy="226.74767"
+       r="5.650713"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle126101"
+       cx="146.21796"
+       cy="240.84448"
+       r="5.650713"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle126103"
+       cx="146.21796"
+       cy="254.94131"
+       r="5.650713"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle126105"
+       cx="146.21796"
+       cy="269.03815"
+       r="5.650713"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle126107"
+       cx="146.21796"
+       cy="283.13495"
+       r="5.650713"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle126111"
+       cx="172.43109"
+       cy="240.84447"
+       r="5.650713"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle126113"
+       cx="172.43109"
+       cy="254.9413"
+       r="5.650713"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle126115"
+       cx="172.43109"
+       cy="269.03815"
+       r="5.650713"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 151.19461,229.42399 16.25983,8.74415"
+       id="path126492"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126099"
+       inkscape:connection-end="#circle126111"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 151.86867,240.84448 14.91171,-1e-5"
+       id="path126494"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126101"
+       inkscape:connection-end="#circle126111"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 150.06561,230.88602 18.51783,19.91692"
+       id="path126496"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126099"
+       inkscape:connection-end="#circle126113"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 149.19493,231.55051 20.25919,32.68479"
+       id="path126498"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#circle126115"
+       inkscape:connection-start="#circle126099"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 151.19461,243.52081 16.25983,8.74416"
+       id="path126500"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126101"
+       inkscape:connection-end="#circle126113"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 150.0656,244.98284 18.51784,19.91695"
+       id="path126502"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126101"
+       inkscape:connection-end="#circle126115"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 151.1946,252.26498 16.25984,-8.74418"
+       id="path126504"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126103"
+       inkscape:connection-end="#circle126111"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 151.86867,254.94131 14.91171,-10e-6"
+       id="path126506"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126103"
+       inkscape:connection-end="#circle126113"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 151.19461,257.61764 16.25983,8.74418"
+       id="path126508"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126103"
+       inkscape:connection-end="#circle126115"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 150.0656,264.89979 18.51784,-19.91696"
+       id="path126510"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126105"
+       inkscape:connection-end="#circle126111"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 151.1946,266.36182 16.25984,-8.74419"
+       id="path126512"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126105"
+       inkscape:connection-end="#circle126113"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 151.86867,269.03815 h 14.91171"
+       id="path126514"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126105"
+       inkscape:connection-end="#circle126115"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 149.19493,278.3321 20.25919,-32.68478"
+       id="path126516"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126107"
+       inkscape:connection-end="#circle126111"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 150.06561,278.99659 18.51783,-19.91693"
+       id="path126518"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126107"
+       inkscape:connection-end="#circle126113"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 151.19461,280.45862 16.25983,-8.74415"
+       id="path126520"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126107"
+       inkscape:connection-end="#circle126115"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 125.65553,226.74767 h 14.91171"
+       id="path126522"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126087"
+       inkscape:connection-end="#circle126099"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 125.65553,240.84448 h 14.91171"
+       id="path126687"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126089"
+       inkscape:connection-end="#circle126101"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 124.98147,229.42399 16.25984,8.74417"
+       id="path126689"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126087"
+       inkscape:connection-end="#circle126101"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 123.85247,230.88602 18.51784,19.91694"
+       id="path126691"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126087"
+       inkscape:connection-end="#circle126103"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 122.9818,231.55051 20.25918,32.68479"
+       id="path126693"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126087"
+       inkscape:connection-end="#circle126105"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 122.38685,231.87166 21.44908,46.13929"
+       id="path126695"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126087"
+       inkscape:connection-end="#circle126107"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 124.98147,238.16816 16.25984,-8.74417"
+       id="path126697"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126089"
+       inkscape:connection-end="#circle126099"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 124.98147,243.52081 16.25984,8.74418"
+       id="path126699"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126089"
+       inkscape:connection-end="#circle126103"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 123.85247,244.98284 18.51784,19.91695"
+       id="path126701"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126089"
+       inkscape:connection-end="#circle126105"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 122.9818,245.64733 20.25918,32.68477"
+       id="path126703"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126089"
+       inkscape:connection-end="#circle126107"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 123.85247,250.80296 18.51784,-19.91694"
+       id="path126707"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126091"
+       inkscape:connection-end="#circle126099"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 124.98147,252.26499 16.25984,-8.74418"
+       id="path126709"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126091"
+       inkscape:connection-end="#circle126101"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 125.65553,254.94131 h 14.91171"
+       id="path126711"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126091"
+       inkscape:connection-end="#circle126103"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 124.98147,257.61764 16.25984,8.74418"
+       id="path126713"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126091"
+       inkscape:connection-end="#circle126105"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 123.85247,259.07967 18.51784,19.91692"
+       id="path126715"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126091"
+       inkscape:connection-end="#circle126107"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 122.9818,264.2353 20.25918,-32.68479"
+       id="path126717"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126093"
+       inkscape:connection-end="#circle126099"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 123.85247,264.89979 18.51784,-19.91695"
+       id="path126719"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126093"
+       inkscape:connection-end="#circle126101"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 124.98147,266.36182 16.25984,-8.74418"
+       id="path126721"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126093"
+       inkscape:connection-end="#circle126103"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 125.65553,269.03815 h 14.91171"
+       id="path126723"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126093"
+       inkscape:connection-end="#circle126105"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 124.98147,271.71447 16.25984,8.74415"
+       id="path126725"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126093"
+       inkscape:connection-end="#circle126107"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 122.38685,278.01095 21.44908,-46.13929"
+       id="path126727"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126095"
+       inkscape:connection-end="#circle126099"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 122.9818,278.3321 20.25918,-32.68477"
+       id="path126729"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126095"
+       inkscape:connection-end="#circle126101"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 123.85247,278.99659 18.51784,-19.91692"
+       id="path126731"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126095"
+       inkscape:connection-end="#circle126103"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 124.98147,280.45862 16.25984,-8.74415"
+       id="path126733"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126095"
+       inkscape:connection-end="#circle126105"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 125.65553,283.13495 h 14.91171"
+       id="path126735"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle126095"
+       inkscape:connection-end="#circle126107"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/GNN/etape_7.png"
+       inkscape:export-xdpi="226.25"
+       inkscape:export-ydpi="226.25" />
+    <rect
+       style="fill:#f6f6f6;fill-opacity:1;stroke:#000000;stroke-width:0.649624;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect44527"
+       width="62.917183"
+       height="77.69516"
+       x="233.66373"
+       y="229.13699"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter10581)"
+       id="rect44529"
+       width="85.216583"
+       height="76.460663"
+       x="217.2377"
+       y="130.4315"
+       transform="matrix(0.684545,-0.27661501,0,1.0161455,67.935764,69.147716)" />
+    <ellipse
+       style="fill:#d3d7cf;fill-opacity:0.278089;stroke:#7d977a;stroke-width:0.433082;stroke-miterlimit:4;stroke-dasharray:2.59849, 0.866162;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse44531"
+       cx="283.55295"
+       cy="247.87703"
+       rx="7.3741665"
+       ry="10.148988"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)" />
+    <ellipse
+       style="fill:#d3d7cf;fill-opacity:0.278089;stroke:#7d977a;stroke-width:0.433082;stroke-miterlimit:4;stroke-dasharray:2.5985, 0.866161;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse44533"
+       cx="246.00739"
+       cy="250.22211"
+       rx="9.7341089"
+       ry="13.396983"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)" />
+    <ellipse
+       style="fill:#d3d7cf;fill-opacity:0.278089;stroke:#7d977a;stroke-width:0.433082;stroke-miterlimit:4;stroke-dasharray:2.59849, 0.866161;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse44535"
+       cx="284.08002"
+       cy="289.56042"
+       rx="9.1720819"
+       ry="12.623464"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)" />
+    <ellipse
+       style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44537"
+       cx="241.43785"
+       cy="245.37619"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44539"
+       cx="244.20255"
+       cy="256.77844"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44541"
+       cx="250.5769"
+       cy="243.66576"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44545"
+       cx="281.37573"
+       cy="251.345"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44547"
+       cx="285.73038"
+       cy="244.40051"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44551"
+       cx="277.85403"
+       cy="291.28427"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44553"
+       cx="281.46213"
+       cy="284.39529"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44555"
+       cx="284.37122"
+       cy="295.06799"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44557"
+       cx="287.53079"
+       cy="284.04224"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44559"
+       cx="290.3063"
+       cy="292.02271"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 225.75919,154.92049 69.78651,0"
+       id="path45193"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44537"
+       inkscape:connection-end="#circle44593" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 225.77826,154.80002 78.22179,-4.89351"
+       id="path45195"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44537"
+       inkscape:connection-end="#circle44597" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 225.70944,155.17322 72.44935,9.86098"
+       id="path45197"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44537"
+       inkscape:connection-end="#circle44595" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 234.20504,149.93421 61.36821,4.83814"
+       id="path45199"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44541"
+       inkscape:connection-end="#circle44593" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 232.32604,149.78607 v 0"
+       id="path45201"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44541"
+       inkscape:connection-end="#circle44541" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 234.2326,149.78607 69.78652,-2e-5"
+       id="path45203"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#circle44597"
+       inkscape:connection-start="#circle44541" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 234.14359,150.20229 64.05445,14.66842"
+       id="path45205"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44541"
+       inkscape:connection-end="#circle44595" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 228.37257,164.90548 303.96906,150.1675"
+       id="path45207"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44539"
+       inkscape:connection-end="#circle44597" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 226.41596,165.28694 v 0"
+       id="path45209"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44539"
+       inkscape:connection-end="#circle44539" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 228.32252,165.28694 69.78652,-10e-6"
+       id="path45211"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#circle44595"
+       inkscape:connection-start="#circle44539" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 228.36271,165.00284 67.1428,-9.79826"
+       id="path45213"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44539"
+       inkscape:connection-end="#circle44593" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 262.86828,178.94433 69.78652,-1e-5"
+       id="path45215"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44553"
+       inkscape:connection-end="#circle44609" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 268.49494,176.31762 69.78649,0"
+       id="path45217"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44557"
+       inkscape:connection-end="#circle44613" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 262.87875,178.88077 75.39221,-2.49959"
+       id="path45219"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44553"
+       inkscape:connection-end="#circle44613" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 262.85026,179.04392 78.02258,4.11471"
+       id="path45221"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44553"
+       inkscape:connection-end="#circle44615" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 262.82601,179.16301 66.52577,7.8034"
+       id="path45223"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44553"
+       inkscape:connection-end="#circle44607" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 262.82276,179.17807 72.57478,9.11531"
+       id="path45225"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44553"
+       inkscape:connection-end="#circle44611" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 268.48189,176.39079 64.18596,2.48036"
+       id="path45227"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44557"
+       inkscape:connection-end="#circle44609" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 268.46277,176.48841 72.4242,6.59903"
+       id="path45229"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44557"
+       inkscape:connection-end="#circle44615" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 268.43209,176.62765 60.94026,10.24741"
+       id="path45231"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44557"
+       inkscape:connection-end="#circle44607" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 268.43014,176.63582 66.98666,11.5731"
+       id="path45233"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44557"
+       inkscape:connection-end="#circle44611" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 259.55399,186.97758 73.06981,-7.82575"
+       id="path45235"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44551"
+       inkscape:connection-end="#circle44609" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 259.52299,187.18509 69.78652,0"
+       id="path45237"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44551"
+       inkscape:connection-end="#circle44607" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 259.51741,187.21713 75.84017,1.27796"
+       id="path45239"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44551"
+       inkscape:connection-end="#circle44611" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 259.53731,187.0965 81.30318,-3.74969"
+       id="path45241"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44551"
+       inkscape:connection-end="#circle44615" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 259.55991,186.92931 78.6846,-10.3559"
+       id="path45243"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44551"
+       inkscape:connection-end="#circle44613" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 265.56549,188.52713 69.78652,-1e-5"
+       id="path45247"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44555"
+       inkscape:connection-end="#circle44611" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 265.60321,188.26435 67.01387,-9.05725"
+       id="path45249"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44555"
+       inkscape:connection-end="#circle44609" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 265.58571,188.39879 75.24888,-5.01223"
+       id="path45251"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44555"
+       inkscape:connection-end="#circle44615" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 271.06829,183.25823 69.78652,-1e-5"
+       id="path45253"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44559"
+       inkscape:connection-end="#circle44615" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 266.83391,137.30056 71.66827,-1.86667"
+       id="path45255"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44547"
+       inkscape:connection-end="#circle44603" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 266.79296,137.52375 67.71267,6.26293"
+       id="path45257"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44547"
+       inkscape:connection-end="#circle44601" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 262.82531,145.66877 75.648,-10.02712"
+       id="path45259"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44545"
+       inkscape:connection-end="#circle44603" />
+    <path
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 262.79644,145.87653 71.66824,-1.86665"
+       id="path45261"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#circle44545"
+       inkscape:connection-end="#circle44601" />
+    <rect
+       style="fill:#f6f6f6;fill-opacity:1;stroke:#000000;stroke-width:0.649624;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;opacity:0"
+       id="rect44583"
+       width="62.917183"
+       height="77.69516"
+       x="313.04514"
+       y="258.87756"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)" />
+    <ellipse
+       style="fill:#d3d7cf;fill-opacity:0.278089;stroke:#7d977a;stroke-width:0.433082;stroke-miterlimit:4;stroke-dasharray:2.59849, 0.866162;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse44587"
+       cx="364.98172"
+       cy="276.41827"
+       rx="7.3741665"
+       ry="10.148988"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)" />
+    <ellipse
+       style="fill:#d3d7cf;fill-opacity:0.278089;stroke:#7d977a;stroke-width:0.433082;stroke-miterlimit:4;stroke-dasharray:2.5985, 0.866161;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse44589"
+       cx="325.38879"
+       cy="279.96268"
+       rx="9.7341089"
+       ry="13.396983"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)" />
+    <ellipse
+       style="fill:#d3d7cf;fill-opacity:0.278089;stroke:#7d977a;stroke-width:0.433082;stroke-miterlimit:4;stroke-dasharray:2.59849, 0.866161;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse44591"
+       cx="363.46143"
+       cy="319.30103"
+       rx="9.1720819"
+       ry="12.623464"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)" />
+    <ellipse
+       style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44593"
+       cx="320.81924"
+       cy="275.11676"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44595"
+       cx="323.58395"
+       cy="286.51901"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44597"
+       cx="329.95831"
+       cy="273.40631"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44601"
+       cx="362.8045"
+       cy="279.88623"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44603"
+       cx="367.15918"
+       cy="272.94174"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44607"
+       cx="357.23544"
+       cy="321.02484"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#4e9a06;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44609"
+       cx="360.84354"
+       cy="314.13586"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44611"
+       cx="363.75262"
+       cy="324.80856"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44613"
+       cx="366.91217"
+       cy="313.78281"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+    <ellipse
+       style="fill:#f57900;fill-opacity:1;stroke:#000000;stroke-width:0.649626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle44615"
+       cx="369.68771"
+       cy="321.76328"
+       transform="matrix(0.92716462,-0.37465419,0,1,0,0)"
+       rx="2.1311972"
+       ry="2.9331508" />
+  </g>
+</svg>

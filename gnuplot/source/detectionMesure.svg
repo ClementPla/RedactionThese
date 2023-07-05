@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="detectionMesure.svg"
+   inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/source/detectionMesure.png"
+   inkscape:export-xdpi="183"
+   inkscape:export-ydpi="183"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-text-baseline="false"
+     inkscape:snap-page="false"
+     inkscape:zoom="1.8116734"
+     inkscape:cx="316.83414"
+     inkscape:cy="488.77462"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     inkscape:window-x="1"
+     inkscape:window-y="1080"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-110.95125 : 34.133064 : 0"
+       inkscape:vp_y="62.790517 : 998.02674 : 0"
+       inkscape:vp_z="77.373071 : 86.537075 : 0"
+       inkscape:persp3d-origin="216.09809 : -190.10219 : 1"
+       id="perspective37" />
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#e9b96e;stroke:#000000;stroke-width:0.264999"
+       id="path547"
+       cx="41.849747"
+       cy="124.59846"
+       r="16.487432"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+       inkscape:export-xdpi="183"
+       inkscape:export-ydpi="183" />
+    <circle
+       style="fill:#729fcf;fill-opacity:0.75;stroke:#000000;stroke-width:0.264999"
+       id="path651"
+       cx="63.539921"
+       cy="119.80326"
+       r="13.678098"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+       inkscape:export-xdpi="183"
+       inkscape:export-ydpi="183" />
+    <circle
+       style="fill:#729fcf;fill-opacity:0.75;stroke:#000000;stroke-width:0.264999"
+       id="path651-3"
+       cx="81.617165"
+       cy="151.53741"
+       r="6.624434"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+       inkscape:export-xdpi="183"
+       inkscape:export-ydpi="183" />
+    <ellipse
+       style="fill:#e9b96e;stroke:#000000;stroke-width:0.264999"
+       id="path651-3-6"
+       cx="31.688816"
+       cy="96.680618"
+       rx="2.3986788"
+       ry="2.398679"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+       inkscape:export-xdpi="183"
+       inkscape:export-ydpi="183" />
+    <path
+       id="circle905"
+       style="fill:none;stroke:#3eff18;stroke-width:0.765;stroke-miterlimit:4;stroke-dasharray:2.295, 2.295;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 67.593077,101.95714 c -5.436184,0.003 -10.714674,0.0889 -13.851613,4.53065 -3.623359,-3.00793 -8.001527,-2.09739 -12.709839,-2.09762 -11.150716,5e-5 -18.36194,9.17109 -18.361986,20.32683 4e-5,11.15574 7.211266,20.07171 18.361986,20.07176 7.794177,-0.002 15.645604,0.70662 18.988527,-6.33744 2.534755,1.45384 4.651157,-2.97936 7.572925,-2.97874 9.2509,9e-5 14.015259,-8.04729 14.015172,-17.30236 9.8e-5,-9.25508 -4.764264,-16.21317 -14.015172,-16.21308 z"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+       inkscape:export-xdpi="183"
+       inkscape:export-ydpi="183" />
+    <circle
+       style="fill:none;fill-opacity:0.75;stroke:#cc0000;stroke-width:0.765;stroke-miterlimit:4;stroke-dasharray:2.295, 2.295;stroke-dashoffset:0;stroke-opacity:0.74902"
+       id="path3883"
+       cx="81.617195"
+       cy="151.53741"
+       r="9.2338533"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+       inkscape:export-xdpi="183"
+       inkscape:export-ydpi="183" />
+    <ellipse
+       style="fill:none;fill-opacity:0.75;stroke:#5c3566;stroke-width:0.765004;stroke-miterlimit:4;stroke-dasharray:2.295, 2.295;stroke-dashoffset:0;stroke-opacity:0.74902"
+       id="path3883-7"
+       cx="31.734102"
+       cy="96.648804"
+       rx="4.4815431"
+       ry="4.4806194"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+       inkscape:export-xdpi="183"
+       inkscape:export-ydpi="183" />
+    <ellipse
+       style="fill:#729fcf;fill-opacity:0.75;stroke:#000000;stroke-width:0.264999"
+       id="circle36366"
+       cx="46.743587"
+       cy="96.346909"
+       rx="2.6586807"
+       ry="3.0042746"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+       inkscape:export-xdpi="183"
+       inkscape:export-ydpi="183" />
+    <g
+       id="g36521"
+       transform="matrix(0.61036758,0,0,0.66553808,42.463188,30.255838)"
+       style="stroke-width:1.56898"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+       inkscape:export-xdpi="183"
+       inkscape:export-ydpi="183">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.392246;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect22789"
+         width="37.601028"
+         height="33.985912"
+         x="87.341194"
+         y="90.461235"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+         inkscape:export-xdpi="183"
+         inkscape:export-ydpi="183" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.415125"
+         x="88.571541"
+         y="96.197678"
+         id="text17213"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+         inkscape:export-xdpi="183"
+         inkscape:export-ydpi="183"><tspan
+           sodipodi:role="line"
+           id="tspan17211"
+           style="font-size:5.29167px;stroke-width:0.415125"
+           x="88.571541"
+           y="96.197678">Prediction</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:5.29167px;stroke-width:0.415125"
+           x="88.571541"
+           y="102.81226"
+           id="tspan21539">Annotation</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:5.29167px;stroke-width:0.415125"
+           x="88.571541"
+           y="109.42685"
+           id="tspan21541">FP</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:5.29167px;stroke-width:0.415125"
+           x="88.571541"
+           y="116.04144"
+           id="tspan17215">FN</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:5.29167px;stroke-width:0.415125"
+           x="88.571541"
+           y="122.65603"
+           id="tspan17217">VP</tspan></text>
+      <rect
+         style="fill:#92b4d8;fill-opacity:1;stroke:#000000;stroke-width:0.392246;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect23225"
+         width="9.3655548"
+         height="4.1030726"
+         x="114.61117"
+         y="92.47213"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+         inkscape:export-xdpi="183"
+         inkscape:export-ydpi="183" />
+      <rect
+         style="fill:#e9b96e;fill-opacity:1;stroke:#000000;stroke-width:0.392246;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect26195"
+         width="9.3655548"
+         height="4.1030726"
+         x="114.61117"
+         y="98.822136"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+         inkscape:export-xdpi="183"
+         inkscape:export-ydpi="183" />
+      <path
+         style="fill:none;stroke:#d63d3d;stroke-width:1.17674;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.70695, 4.70695;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 96.166146,107.18134 H 123.91253"
+         id="path28026"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+         inkscape:export-xdpi="183"
+         inkscape:export-ydpi="183" />
+      <path
+         style="fill:none;stroke:#826489;stroke-width:1.17674;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.70695, 4.70695;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 96.166146,114.15084 H 123.91253"
+         id="path30793"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+         inkscape:export-xdpi="183"
+         inkscape:export-ydpi="183" />
+      <path
+         style="fill:none;stroke:#3eff18;stroke-width:1.17674;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.70695, 4.70695;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 96.166146,120.49374 H 123.91253"
+         id="path30795"
+         inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+         inkscape:export-xdpi="183"
+         inkscape:export-ydpi="183" />
+    </g>
+    <ellipse
+       style="fill:none;fill-opacity:0.75;stroke:#cc0000;stroke-width:0.764999;stroke-miterlimit:4;stroke-dasharray:2.295, 2.295;stroke-dashoffset:0;stroke-opacity:0.74902"
+       id="circle36368"
+       cx="46.74361"
+       cy="96.346909"
+       rx="3.7059572"
+       ry="4.1876831"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/segmentation_lesions/detection/mesureDetection.png"
+       inkscape:export-xdpi="183"
+       inkscape:export-ydpi="183" />
+  </g>
+</svg>

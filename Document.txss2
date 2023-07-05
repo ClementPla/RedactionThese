@@ -1,0 +1,51 @@
+{
+    "InternalPDFViewer": {
+        "Embedded": false,
+        "File": ""
+    },
+    "Session": {
+        "Bookmarks": [
+            {
+                "bookmarkNumber": 0,
+                "fileName": "../../cours/INF6900A/CriticalReview/review.tex",
+                "lineNumber": 22,
+                "text": "review.tex\n\\item While this work does not propose a radically new methodology, it setups a rigorous standard for the clinical assessment of an algorithm developed for global population screening. Involving 54 ophthalmologists in the grading process guarantees the reliability of the data used and allowed an extensive analysis of the intra-grader variability (each image being labelled from 3 to 8 times)."
+            },
+            {
+                "bookmarkNumber": 1,
+                "fileName": "../Fisheye/Arxiv/arxiv/paper.tex",
+                "lineNumber": 5,
+                "text": "paper.tex\n\\usepackage{times}  % DO NOT CHANGE THIS"
+            }
+        ],
+        "CurrentFile": "6-Revue_litterature.tex",
+        "FileVersion": 1,
+        "Files": [
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "5-Introduction.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "Document.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 46,
+                "EditorGroup": 0,
+                "FileName": "6-Revue_litterature.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 9
+            }
+        ],
+        "MasterFile": ""
+    }
+}

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="module_inception.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.79118979"
+     inkscape:cx="570.65954"
+     inkscape:cy="461.33052"
+     inkscape:window-width="1445"
+     inkscape:window-height="868"
+     inkscape:window-x="476"
+     inkscape:window-y="1080"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path2423" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423-27" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423-36" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-92"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423-0" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#d0f4af;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1854"
+       width="38.76202"
+       height="39.237595"
+       x="156.78859"
+       y="125.42828"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <rect
+       style="fill:#d5f3fb;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect846"
+       width="18.818281"
+       height="39.237595"
+       x="122.99174"
+       y="49.28429"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <rect
+       style="fill:#9ae2f5;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1852"
+       width="18.818281"
+       height="39.237595"
+       x="122.99174"
+       y="100.04694"
+       inkscape:connector-avoid="true"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <rect
+       style="fill:#6ed6f1;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1856"
+       width="18.818281"
+       height="39.237595"
+       x="122.99174"
+       y="150.8096"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <rect
+       style="fill:#d5f3fb;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1858"
+       width="18.818281"
+       height="39.237595"
+       x="122.99174"
+       y="201.57225"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.54256;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="M 141.81002,68.903088 H 176.1696 V 125.42828"
+       id="path2096"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect1854"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.54256;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="M 141.81002,221.19105 H 176.1696 V 164.66588"
+       id="path2098"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect1854"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.54256;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 141.81002,125.12207 14.97857,8.68602"
+       id="path2100"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect1854"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.54256;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 141.81002,164.97207 14.97857,-8.68602"
+       id="path2102"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect1854"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <rect
+       style="fill:#d5f3fb;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect2388"
+       width="18.818281"
+       height="39.237595"
+       x="87.976738"
+       y="100.04694"
+       inkscape:connector-avoid="true"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <rect
+       style="fill:#d5f3fb;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect2390"
+       width="18.818281"
+       height="39.237595"
+       x="87.976738"
+       y="150.8096"
+       inkscape:connector-avoid="true"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <rect
+       style="fill:#f6a1a1;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect2392"
+       width="18.818281"
+       height="39.237595"
+       x="87.976738"
+       y="201.57225"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <rect
+       style="fill:#d0f4af;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect2394"
+       width="18.818281"
+       height="39.237595"
+       x="44.208"
+       y="125.42828"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.54256;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 53.617141,164.66588 0,56.52517 H 87.97674"
+       id="path2751"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2394"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.54256;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="M 63.026281,150.5034 87.97674,164.97207"
+       id="path2855"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2394"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.54256;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="M 63.026281,139.59075 87.97674,125.12207"
+       id="path2859"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2394"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.54256;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 106.79502,119.66574 h 16.19672"
+       id="path3005"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.54256;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 106.79502,170.4284 h 16.19672"
+       id="path3007"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.54256;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 106.79502,221.19105 h 16.19672"
+       id="path3009"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.54256;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="M 53.617141,125.42828 V 68.903088 h 69.374599"
+       id="path3557"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2394"
+       inkscape:connection-end="#rect846"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="176.65019"
+       y="143.93913"
+       id="text9800"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58"><tspan
+         sodipodi:role="line"
+         id="tspan9798"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583;font-size:5.64444444px"
+         x="176.65019"
+         y="143.93913">Concaténation </tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583;font-size:5.64444444px"
+         x="176.65019"
+         y="149.23079"
+         id="tspan9802">des filtres</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="132.51526"
+       y="67.345909"
+       id="text26170"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58"><tspan
+         sodipodi:role="line"
+         id="tspan26168"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="132.51526"
+         y="67.345909">Conv.</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="132.51526"
+         y="74.401459"
+         id="tspan26838">1x1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="132.51526"
+       y="118.081"
+       id="text29124"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58"><tspan
+         sodipodi:role="line"
+         id="tspan29120"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="132.51526"
+         y="118.081">Conv.</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="132.51526"
+         y="125.13655"
+         id="tspan29122">3x3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="132.51526"
+       y="168.84366"
+       id="text29130"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58"><tspan
+         sodipodi:role="line"
+         id="tspan29126"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="132.51526"
+         y="168.84366">Conv.</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="132.51526"
+         y="175.89922"
+         id="tspan29128">5x5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="132.51526"
+       y="219.63387"
+       id="text29136"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58"><tspan
+         sodipodi:role="line"
+         id="tspan29132"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="132.51526"
+         y="219.63387">Conv.</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="132.51526"
+         y="226.68942"
+         id="tspan29134">1x1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="97.412064"
+       y="219.57736"
+       id="text34720"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58"><tspan
+         sodipodi:role="line"
+         id="tspan34716"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="97.412064"
+         y="219.57736">Max.</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="97.412064"
+         y="226.63292"
+         id="tspan34718">Pool.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="53.511032"
+       y="147.0976"
+       id="text37592"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58"><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="53.511032"
+         y="147.0976"
+         id="tspan37590">Entrée</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="97.500259"
+       y="118.10856"
+       id="text38046"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58"><tspan
+         sodipodi:role="line"
+         id="tspan38042"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="97.500259"
+         y="118.10856">Conv.</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="97.500259"
+         y="125.16411"
+         id="tspan38044">1x1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="97.500259"
+       y="168.87122"
+       id="text40406"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58"><tspan
+         sodipodi:role="line"
+         id="tspan40402"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="97.500259"
+         y="168.87122">Conv.</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="97.500259"
+         y="175.92677"
+         id="tspan40404">1x1</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;fill:#d0f4af;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect40528"
+       width="33.93959"
+       height="32.034721"
+       x="3.9834497"
+       y="2.1920681" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;fill:#d5f3fb;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect40610"
+       width="33.93959"
+       height="32.034721"
+       x="46.119877"
+       y="2.1920681" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;fill:#9ae2f5;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect40612"
+       width="33.93959"
+       height="32.034721"
+       x="88.73246"
+       y="2.1920681" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;fill:#6ed6f1;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect40614"
+       width="33.93959"
+       height="32.034721"
+       x="130.11679"
+       y="2.1920681" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;fill:#f6a1a1;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect47158"
+       width="33.93959"
+       height="32.034721"
+       x="169.54683"
+       y="2.1920681" />
+    <path
+       style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.54256;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="M 20.948579,144.9266 44.208,144.96073"
+       id="path47935"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 195.55061,145.06004 10.79425,0.007"
+       id="path48142"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect1854"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/module_inception.png"
+       inkscape:export-xdpi="170.58"
+       inkscape:export-ydpi="170.58" />
+  </g>
+</svg>

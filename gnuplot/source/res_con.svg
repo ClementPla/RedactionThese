@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg48449"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="res_con.svg"
+   inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+   inkscape:export-xdpi="170.58"
+   inkscape:export-ydpi="170.58"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview48451"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:connector-spacing="42"
+     inkscape:zoom="1.1189113"
+     inkscape:cx="288.67345"
+     inkscape:cy="394.57997"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs48446">
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path2423" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path2423-3" />
+    </marker>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter86368"
+       x="-0.028775253"
+       y="-0.010494988"
+       width="1.0575505"
+       height="1.02099">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.076357585"
+         id="feGaussianBlur86370" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g51139"
+       transform="translate(11.855059,-1.1879578)"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36">
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.54256;-inkscape-stroke:none;stop-color:#000000"
+         id="path48730"
+         cx="173.17957"
+         cy="116.97134"
+         r="6.2638106" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:14.5885px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="149.66974"
+         y="136.45352"
+         id="text50262"
+         transform="scale(1.125084,0.88882253)"><tspan
+           sodipodi:role="line"
+           id="tspan50260"
+           style="stroke-width:0.264583"
+           x="149.66974"
+           y="136.45352">+</tspan></text>
+    </g>
+    <rect
+       style="fill:#9ae2f5;stroke:#000000;stroke-width:0.543;-inkscape-stroke:none;stop-color:#000000;font-variation-settings:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-opacity:1"
+       id="rect48538"
+       width="21.665495"
+       height="43.33099"
+       x="57.705982"
+       y="94.117882"
+       inkscape:connector-avoid="true"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#9ae2f5;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect48624"
+       width="21.665495"
+       height="43.33099"
+       x="122.75948"
+       y="94.117882"
+       inkscape:connector-avoid="true"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36" />
+    <circle
+       style="fill:#000000;stroke:#000000;stroke-width:0.54256;-inkscape-stroke:none;stop-color:#000000;fill-opacity:1"
+       id="path48728"
+       cx="25.373522"
+       cy="115.78338"
+       r="1.5344641"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 26.907986,115.78338 30.797996,0"
+       id="path51163"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#path48728"
+       inkscape:connection-end="#rect48538"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="M 79.371477,115.78338 H 122.75948"
+       id="path51165"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect48538"
+       inkscape:connection-end="#rect48624"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 144.42498,115.78338 34.34583,0"
+       id="path51167"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect48624"
+       inkscape:connection-end="#g51139"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 191.29737,115.89245 8.04167,0.14006"
+       id="path51169"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g51139"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 1.2805031,115.44332 22.5587219,0.3184"
+       id="path51171"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#path48728"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36" />
+    <path
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#19531c;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 25.373522,117.31784 v 30.97895 c 0,0.13229 0.132291,0.26458 0.264583,0.26458 H 184.77004 c 0.13229,0 0.26458,-0.13229 0.26458,-0.26458 v -26.2496"
+       id="path51173"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="1"
+       inkscape:connection-end="#g51139"
+       inkscape:connection-start="#path48728"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#fcaf3e;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect51548"
+       width="3.8583462"
+       height="43.407944"
+       x="75.55191"
+       y="94.079407"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#fcaf3e;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect51659"
+       width="3.9081872"
+       height="43.407944"
+       x="140.51678"
+       y="94.079407"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36" />
+    <rect
+       style="font-variation-settings:normal;fill:#9ae2f5;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect40612"
+       width="33.93959"
+       height="32.034721"
+       x="86.029091"
+       y="15.417364" />
+    <rect
+       style="font-variation-settings:normal;fill:#fcaf3e;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect51753"
+       width="33.93959"
+       height="32.034721"
+       x="129.03378"
+       y="15.417364" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="66.533028"
+       y="114.19863"
+       id="text56640"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36"><tspan
+         sodipodi:role="line"
+         id="tspan56638"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="66.533028"
+         y="114.19863">Conv.</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="66.533028"
+         y="121.25418"
+         id="tspan57104">3x3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="132.4117"
+       y="114.19863"
+       id="text60101"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36"><tspan
+         sodipodi:role="line"
+         id="tspan60097"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="132.4117"
+         y="114.19863">Conv.</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="132.4117"
+         y="121.25418"
+         id="tspan60099">3x3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.92574px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fcaf3e;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="80.809349"
+       y="98.826363"
+       id="text61403"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36"><tspan
+         sodipodi:role="line"
+         id="tspan61401"
+         style="fill:#fcaf3e;fill-opacity:1;stroke-width:0.264583"
+         x="80.809349"
+         y="98.826363">relu</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.92574px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fcaf3e;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="145.56023"
+       y="98.826363"
+       id="text72189"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36"><tspan
+         sodipodi:role="line"
+         id="tspan72187"
+         style="fill:#fcaf3e;fill-opacity:1;stroke-width:0.264583"
+         x="145.56023"
+         y="98.826363">relu</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.464999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect72213"
+       width="11.229678"
+       height="48.089897"
+       x="93.078636"
+       y="91.583817"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="96.083473"
+       y="116.0807"
+       id="text74607"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36"><tspan
+         sodipodi:role="line"
+         id="tspan74605"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         x="96.083473"
+         y="116.0807">... </tspan></text>
+    <rect
+       style="font-variation-settings:normal;fill:#d5f3fb;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect40610"
+       width="33.93959"
+       height="32.034721"
+       x="4.5997767"
+       y="29.964285" />
+    <g
+       id="g85876"
+       style="opacity:0.39892078;filter:url(#filter86368)"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36">
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#d5f3fb;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect82679"
+         width="15.803795"
+         height="43.33099"
+         x="33.14357"
+         y="94.117882"
+         inkscape:connector-avoid="true" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="41.159843"
+         y="114.19863"
+         id="text82685"><tspan
+           sodipodi:role="line"
+           id="tspan82681"
+           style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="41.159843"
+           y="114.19863">Conv.</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="41.159843"
+           y="121.25418"
+           id="tspan82683">1x1</tspan></text>
+    </g>
+    <g
+       id="g86596"
+       style="opacity:0.39892078;filter:url(#filter86368)"
+       transform="translate(126.35067)"
+       inkscape:export-filename="/home/clement/Documents/phd/Redaction/gnuplot/revue_litterature/residual_connection.png"
+       inkscape:export-xdpi="245.36"
+       inkscape:export-ydpi="245.36">
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#d5f3fb;fill-opacity:1;stroke:#000000;stroke-width:0.543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect86588"
+         width="15.803795"
+         height="43.33099"
+         x="33.14357"
+         y="94.117882"
+         inkscape:connector-avoid="true" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="41.159843"
+         y="114.19863"
+         id="text86594"><tspan
+           sodipodi:role="line"
+           id="tspan86590"
+           style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="41.159843"
+           y="114.19863">Conv.</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="41.159843"
+           y="121.25418"
+           id="tspan86592">1x1</tspan></text>
+    </g>
+  </g>
+</svg>
